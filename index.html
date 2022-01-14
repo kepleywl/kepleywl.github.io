@@ -1,59 +1,48 @@
 <!DOCTYPE html>
-<html>
+<html lang="en" dir="ltr">
 
 <head>
     <meta charset="utf-8">
-    <title>my blog</title>
-
-    <!-- CSS Stylesheets -->
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css"
-        integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
-    
-
-    <!-- Bootstrap Scripts  -->
-    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
-        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
-        crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
-        integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
-        crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
-        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
-        crossorigin="anonymous"></script>
+    <title>My Blog</title>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
     <link rel="stylesheet" href="css/styles.css">
+    <nav class="navbar navbar-default">
+        <div class="container">
+            <div class="navbar-header">
+                <p class="navbar-brand">MY BLOG</p>
+            </div>
+            <ul class="nav navbar-nav navbar-right">
+                <li id="home"><a href="./index.html">HOME</a></li>
+                <!-- <li id="about"><a href="/about">ABOUT US</a></li>
+          <li id="contact"><a href="/contact">CONTACT US</a></li> -->
+            </ul>
+        </div>
+    </nav>
 </head>
 
 <body>
-    <section class="colored-section" id="title">
-        <div class="container">
-            <nav class="navbar navbar-default navbar-expand-lg">
-                <div class="navbar-header">
-                    <p class="navbar-brand">My Blog</p>
-                </div>
-                
-                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
-                <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                    <ul class="nav navbar-nav ml-auto">
-                        <li class="nav-item">
-                            <a class="nav-link" href="./index.html">Home</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="./index.html">About</a>
-                        </li>
-                    </ul>
-                </div>
-            </nav>
-        </div>
-        
-    </section>
+    <div class="container">
 
-    <section>
-        <div class="container">
-            <h2>First Post</h2>
-        </div>
-    </section>
-    
+        <h1>First Post</h1>
+        <p>
+            My best classroom computing experience so far would be working on the final project assignment for Artificial Intelligence last semester. The final project was based on the programming game "Robot Game." We had created a robot for this game early in the
+            semester but it only worked programattically. Now we had to accomplish the same goal by teaching a bot how to play the game through deep learning. The project was very frustrating at first because it seemed like no matter what I tried the
+            robot would not learn anything significant. It took a full two weeks of trying different approaches before my bot had any progress in learning how to play the game. The feeling when I saw the robot play the game correctly and actually kind
+            of well was extremely satisfying since I felt like I had actually learned something. <br> &emsp; Outside of the classroom the first thing that comes to mind is my research into Optical Wireless Communication (OWC) under Dr. Hamza.
+            I have really enjoyed working on this project because it was so challenging. The purpose of this research is to find alternatives to radio frequencies for transmitting information. In this project I'm trying to find a low cost solution to
+            this problem by transmitting a signal through LED's controlled by an arduino and a camera that picks up the transmission. The idea is that the light flickers really fast and the camera should be able to pick up on a message by how the light
+            flashes. In practice this proved to be really difficult since the synchronization between the flicker of the light and the frames per second on the camera had to very precise. A few months ago I finally succeeded with a workable version of
+            the project and although it still has room for improvement I was very proud in getting it to work.
+        </p>
 
+
+    </div>
+    <div class="footer-padding"></div>
+    <div class="footer">
+        <p>Will's Blog</p>
+    </div>
+    </div>
 </body>
+
+</html>
