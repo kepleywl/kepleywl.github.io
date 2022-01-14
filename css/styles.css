@@ -1,0 +1,41 @@
+/* colors: F3C892 FFF1BD A3DA8D 146356 */
+body {
+    font-family: 'Montserrat', sans-serif; 
+    /* background-color: #FFF1BD; */
+}
+
+p {
+    color: #8f8f8f;
+}
+
+
+/* Sections */
+
+/* .colored-section {
+    background-color: #A3DA8D;
+    color: #fff;
+} */
+
+.white-section {
+    background-color: #fff;
+}
+
+/* Navigation Bar  */
+/* .navbar {
+    padding: 1rem 0 1rem 1rem;
+}
+
+.navbar-brand {
+    font-family: 'Ubuntu';
+    font-size: 1.5rem;
+}
+
+.nav-item {
+    padding: 0 18px;
+}
+
+.nav-link {
+    font-family: 'Montserrat';
+    font-size: 1.2rem;
+    font-weight: 100;
+} */
